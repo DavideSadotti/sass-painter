@@ -68,30 +68,36 @@ body {
 }
 
 .jumbotron {
-  height: 700px;
+  height: 600px;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .jumbotron > div {
-  width: 50%;
+  max-width: 1200px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.jumbotron > div > div {
+  width: 700px;
   color: white;
   position: absolute;
   top: 50%;
-  left: 10%;
   transform: translateY(-50%);
   line-height: 50px;
 }
-.jumbotron > div img {
+.jumbotron > div > div img {
   width: 70px;
 }
-.jumbotron > div h1 {
+.jumbotron > div > div h1 {
   font-size: 44px;
 }
-.jumbotron > div h3 {
+.jumbotron > div > div h3 {
   font-size: 22px;
 }
-.jumbotron > div button:first-of-type {
+.jumbotron > div > div button:first-of-type {
   font-size: 22px;
   color: white;
   background-color: transparent;
@@ -101,7 +107,7 @@ body {
   margin-right: 25px;
   font-weight: 600;
 }
-.jumbotron > div button:last-child {
+.jumbotron > div > div button:last-child {
   color: white;
   background-color: #1473e6;
   padding: 12px 20px;
@@ -109,4 +115,42 @@ body {
   border-radius: 50px;
   font-weight: 600;
   font-size: 22px;
+}
+
+.primaSection {
+  text-align: center;
+  max-width: 700px;
+  margin: 50px auto;
+}
+.primaSection h2 {
+  font-size: 36px;
+}
+.primaSection p {
+  font-size: 18px;
+}
+
+.secondaSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+.secondaSection > div {
+  display: flex;
+  margin: 100px 0;
+}
+.secondaSection > div > div {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.secondaSection > div > div video, .secondaSection > div > div img {
+  width: 100%;
+}
+.secondaSection > div > div h3 {
+  font-size: 36px;
+}
+.secondaSection > div > div p {
+  font-size: 18px;
 }
