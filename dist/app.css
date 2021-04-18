@@ -116,14 +116,14 @@ body {
   background-size: cover;
 }
 .jumbotron > div {
-  max-width: 1200px;
+  max-width: 1300px;
   position: relative;
   height: 100%;
   margin: 0 auto;
   padding: 0 100px;
 }
 .jumbotron > div > div {
-  width: 700px;
+  width: 800px;
   color: white;
   position: absolute;
   top: 50%;
@@ -138,6 +138,7 @@ body {
 }
 .jumbotron > div > div h3 {
   font-size: 22px;
+  margin: 10px 0;
 }
 .jumbotron > div > div button:first-of-type {
   font-size: 22px;
@@ -181,7 +182,7 @@ body {
 }
 
 .secondaSection {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 85px;
 }
@@ -204,4 +205,14 @@ body {
 }
 .secondaSection > div > div p {
   font-size: 18px;
+  margin: 10px 0;
+}
+.secondaSection > div > div a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1473e6;
+  margin-top: 10px;
+}
+.secondaSection > div > div a:hover {
+  text-decoration: underline;
 }

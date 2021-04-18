@@ -38,6 +38,18 @@
 
       p{
         font-size: $normalFont;
+        margin: 10px 0;
+      }
+
+      a{
+        text-decoration: none;
+        font-size: $normalFont;
+        color: $bluColor;
+        margin-top: 10px;
+      }
+
+      a:hover{
+        text-decoration: underline;
       }
     }
   }

@@ -130,7 +130,7 @@
     padding: 0 100px;
 
     > div{
-      width: $smallContainer;
+      width: 800px;
       color: white;
       position: absolute;
       top: 50%;
@@ -147,6 +147,7 @@
 
       h3{
         font-size: 22px;
+        margin: 10px 0;
       }
 
       button:first-of-type{
